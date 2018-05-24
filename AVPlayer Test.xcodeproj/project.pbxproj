@@ -12,8 +12,6 @@
 		1D8B488D20B7653700BA7C4D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1D8B488B20B7653700BA7C4D /* Main.storyboard */; };
 		1D8B488F20B7653800BA7C4D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1D8B488E20B7653800BA7C4D /* Assets.xcassets */; };
 		1D8B489220B7653800BA7C4D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1D8B489020B7653800BA7C4D /* LaunchScreen.storyboard */; };
-		1D8B489D20B7653800BA7C4D /* AVPlayer_TestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D8B489C20B7653800BA7C4D /* AVPlayer_TestTests.swift */; };
-		1D8B48A820B7653800BA7C4D /* AVPlayer_TestUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D8B48A720B7653800BA7C4D /* AVPlayer_TestUITests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,11 +40,7 @@
 		1D8B489120B7653800BA7C4D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1D8B489320B7653800BA7C4D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1D8B489820B7653800BA7C4D /* AVPlayer TestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "AVPlayer TestTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		1D8B489C20B7653800BA7C4D /* AVPlayer_TestTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AVPlayer_TestTests.swift; sourceTree = "<group>"; };
-		1D8B489E20B7653800BA7C4D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1D8B48A320B7653800BA7C4D /* AVPlayer TestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "AVPlayer TestUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		1D8B48A720B7653800BA7C4D /* AVPlayer_TestUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AVPlayer_TestUITests.swift; sourceTree = "<group>"; };
-		1D8B48A920B7653800BA7C4D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,8 +72,6 @@
 			isa = PBXGroup;
 			children = (
 				1D8B488620B7653700BA7C4D /* AVPlayer Test */,
-				1D8B489B20B7653800BA7C4D /* AVPlayer TestTests */,
-				1D8B48A620B7653800BA7C4D /* AVPlayer TestUITests */,
 				1D8B488520B7653700BA7C4D /* Products */,
 			);
 			sourceTree = "<group>";
@@ -105,24 +97,6 @@
 				1D8B489320B7653800BA7C4D /* Info.plist */,
 			);
 			path = "AVPlayer Test";
-			sourceTree = "<group>";
-		};
-		1D8B489B20B7653800BA7C4D /* AVPlayer TestTests */ = {
-			isa = PBXGroup;
-			children = (
-				1D8B489C20B7653800BA7C4D /* AVPlayer_TestTests.swift */,
-				1D8B489E20B7653800BA7C4D /* Info.plist */,
-			);
-			path = "AVPlayer TestTests";
-			sourceTree = "<group>";
-		};
-		1D8B48A620B7653800BA7C4D /* AVPlayer TestUITests */ = {
-			isa = PBXGroup;
-			children = (
-				1D8B48A720B7653800BA7C4D /* AVPlayer_TestUITests.swift */,
-				1D8B48A920B7653800BA7C4D /* Info.plist */,
-			);
-			path = "AVPlayer TestUITests";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -265,7 +239,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1D8B489D20B7653800BA7C4D /* AVPlayer_TestTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -273,7 +246,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1D8B48A820B7653800BA7C4D /* AVPlayer_TestUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
